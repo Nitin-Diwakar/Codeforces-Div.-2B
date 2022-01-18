@@ -1,4 +1,3 @@
-#Keyboard layout
 a = list(input())
 b  = list(input())
 isomorphic = dict(zip(a,b))
