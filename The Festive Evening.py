@@ -10,6 +10,8 @@ def castle(n,gaurd,s):
         else:
             m[s[i]]+=1
         me[s[i]] = 1 
+    # print(m)
+    # print(me)
     for i in range(len(s)):
         m[s[i]] -=1
         if me[s[i]] == 1:
